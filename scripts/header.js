@@ -9,10 +9,10 @@ document.querySelector('header').innerHTML = `
   <p>QUICK ACCESS</p>
 </div>
 <div class="menu">
-  <a href="./index.html">
+  <a href="./index">
     <button class="head-button">Home</button>
   </a>
-  <a href="./download.html">
+  <a href="./download">
     <button class="head-button">Download</button>
   </a>
 </div>
