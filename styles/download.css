@@ -1,0 +1,35 @@
+h4{
+	font-family: "Montserrat";
+	font-size: 30px;
+	margin: 0px;
+	padding: 0px;
+}
+
+a.link{
+	color: black;
+	text-decoration: none!important;
+	transition-duration: 0.15s;
+}
+
+a img {
+	transition: 0.15s;
+	filter: grayscale(50%);
+	opacity: 0.5;
+	max-height: 50px;
+	max-width: 50px;
+	margin-right: 10px;
+}
+
+a img:hover {
+	filter: grayscale(0%);
+	opacity: 1;
+}
+
+abbr {
+	text-decoration: none;
+}
+
+.office, .art, .program {
+	display: flex;
+	align-items: center;
+}

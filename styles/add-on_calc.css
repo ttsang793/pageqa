@@ -1,0 +1,47 @@
+div.js-calculator-area {
+  padding: 20px;
+  outline: 2px solid #152f4b;
+  border-radius: 10px;
+}
+
+div.calc-area {
+  display: grid;
+  grid-template-columns: 55px 55px 55px 55px;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+div.calc-area button {
+  height: 55px;
+  border-radius: 100%;
+  border: none;
+  font-size: 28px;
+  background-color: #8eaecf;
+}
+
+.calculation {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  color: #152f4b;
+
+  background-color: transparent;
+  border: none;
+}
+
+div.calc-area button.ope, div.calc-area button.back, div.calc-area button.clear {
+  background-color: #cc5500;
+  color: white;
+  font-weight: bold;
+}
+
+div.calc-area button.clear, div.calc-area button.back {
+  font-size: 15px;
+}
+
+div.calc-area button:hover {
+  background-color: rgb(255, 255, 137);
+  color: black;
+}
