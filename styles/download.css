@@ -1,7 +1,7 @@
 h4{
 	font-family: "Montserrat";
 	font-size: 30px;
-	margin: 0px;
+	margin: 15px 0;
 	padding: 0px;
 }
 
@@ -32,4 +32,47 @@ abbr {
 .office, .art, .program {
 	display: flex;
 	align-items: center;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	column-gap: 10%;
+}
+
+table {
+	border-collapse: collapse;
+	font-family: "Montserrat";
+	width: 100%;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+tr th, td {
+	background-color: #d8e9ff;
+	font-weight: normal;
+	text-align: start;
+	font-size: 20px;
+}
+
+thead tr th {
+	background-color: white;
+	font-weight: bold;
+	text-align: center;
+	font-size: 22px;
+}
+
+.page-link {
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	transition: 0.15s;
+}
+
+.page-link:hover {
+	font-weight: bold;
+	color: #245182;
 }
