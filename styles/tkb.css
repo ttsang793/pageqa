@@ -1,0 +1,29 @@
+main {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tkb {
+  margin: 10px auto;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.caption {
+  margin-top: 10px;
+}
+
+.title {
+  background-color: #1d436b;
+  color: white;
+  font-size: 24px;
+  padding: 7.5px 40px;
+  font-family: 'Montserrat';
+  border: none;
+  font-weight: bold;
+}

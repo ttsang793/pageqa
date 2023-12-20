@@ -1,0 +1,24 @@
+table {
+	border-collapse: collapse;
+	font-family: "Montserrat";
+	width: 100%;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+tr th, td {
+	background-color: #d8e9ff;
+	font-weight: normal;
+	text-align: start;
+	font-size: 20px;
+}
+
+thead tr th {
+	background-color: white;
+	font-weight: bold;
+	text-align: center;
+	font-size: 22px;
+}

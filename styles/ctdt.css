@@ -1,0 +1,55 @@
+#dao-tao {  
+  margin-bottom: 15px;
+}
+
+#danh-sach-mh {
+  align-items: flex-start;
+}
+
+#chon-ct {
+  text-align: center;
+}
+
+.cn {
+  padding: 10px 5px;
+  font-size: 20px;
+  background-color: transparent;
+  font-family: "Montserrat";
+  border: none;
+  text-align: left;
+  transition: 0.15s;
+}
+
+.cn:hover {
+  background-color: #1d436b;
+  color: white;
+}
+
+
+table {
+  background-color: white;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table * {
+  border: 1px solid black;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  cursor: pointer;
+}
+
+tr:hover {
+  background-color: rgb(230,230,230);
+}
+
+.text-start {
+  text-align: left;
+}
+
+.head-list {  
+  font-style: italic;
+  background-color: rgb(220,255,255);
+}
